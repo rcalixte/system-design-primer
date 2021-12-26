@@ -1,0 +1,36 @@
+---
+name: Generate PDF using Pandoc (Docker)
+
+on:
+  push:
+    branches:
+      - master
+      - pandoc
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch: null
+
+jobs:
+  create_pdf:
+    runs-on: ubuntu-latest
+    container:
+      image: pandoc/latex:3
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: docker://pandoc/latex:3
+        with:
+          entrypoint: './pandoc-docker.sh'
+
+      - id: short_sha
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+        run: echo "::set-output name=short_sha::$(echo ${GITHUB_SHA::7})"
+
+      - uses: softprops/action-gh-release@v3
+        with:
+          tag_name: version-${{ steps.short_sha.outputs.short_sha }}
+          draft: false
+          files: |
+            *.pdf
