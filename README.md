@@ -183,7 +183,7 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 
 > Suggested topics to review based on your interview timeline (short, medium, long).
 
-![Imgur](images/OfVllex.png)
+![Study Guide](images/OfVllex.png)
 
 **Q: For interviews, do I need to know everything here?**
 
@@ -306,49 +306,49 @@ Check out the following links to get a better idea of what to expect:
 
 [View exercise and solution](solutions/system_design/pastebin/README.md)
 
-![Imgur](images/4edXG0T.png)
+![Scaled design of Pastebin.com (or Bit.ly)](http://i.imgur.com/4edXG0T.png)
 
 ### Design the Twitter timeline and search (or Facebook feed and search)
 
 [View exercise and solution](solutions/system_design/twitter/README.md)
 
-![Imgur](images/jrUBAF7.png)
+![Scaled design of the Twitter timeline and search (or Facebook feed and search)](http://i.imgur.com/jrUBAF7.png)
 
 ### Design a web crawler
 
 [View exercise and solution](solutions/system_design/web_crawler/README.md)
 
-![Imgur](images/bWxPtQA.png)
+![Scaled design of a web crawler](http://i.imgur.com/bWxPtQA.png)
 
 ### Design Mint.com
 
 [View exercise and solution](solutions/system_design/mint/README.md)
 
-![Imgur](images/V5q57vU.png)
+![Scaled design of Mint.com](http://i.imgur.com/V5q57vU.png)
 
 ### Design the data structures for a social network
 
 [View exercise and solution](solutions/system_design/social_graph/README.md)
 
-![Imgur](images/cdCv5g7.png)
+![Scaled design of the data structures for a social network](http://i.imgur.com/cdCv5g7.png)
 
 ### Design a key-value store for a search engine
 
 [View exercise and solution](solutions/system_design/query_cache/README.md)
 
-![Imgur](images/4j99mhe.png)
+![Scaled design of a key-value store for a search engine](http://i.imgur.com/4j99mhe.png)
 
 ### Design Amazon's sales ranking by category feature
 
 [View exercise and solution](solutions/system_design/sales_rank/README.md)
 
-![Imgur](images/MzExP06.png)
+![Scaled design of Amazon's sales ranking by category feature](http://i.imgur.com/MzExP06.png)
 
 ### Design a system that scales to millions of users on AWS
 
 [View exercise and solution](solutions/system_design/scaling_aws/README.md)
 
-![Imgur](images/jj3A5N8.png)
+![Scaled design of a system that scales to millions of users on AWS](http://i.imgur.com/jj3A5N8.png)
 
 ## Object-oriented design interview questions with solutions
 
